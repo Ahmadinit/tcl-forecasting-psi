@@ -1,0 +1,37 @@
+# Python 
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+backend/venv/
+*/venv/
+
+
+# Node / React frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.next/
+frontend/.expo/
+
+# Electron build
+frontend/packaging/electron-app/node_modules/
+frontend/packaging/electron-app/dist/
+frontend/packaging/electron-app/build/
+*.exe
+*.AppImage
+*.dmg
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
