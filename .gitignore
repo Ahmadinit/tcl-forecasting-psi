@@ -20,7 +20,7 @@ frontend/.expo/
 # Electron build
 frontend/packaging/electron-app/node_modules/
 frontend/packaging/electron-app/dist/
-frontend/packaging/electron-app/build/
+
 *.exe
 *.AppImage
 *.dmg
