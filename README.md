@@ -1,3 +1,4 @@
+```
 psi-app/
 │
 ├── backend/                          # FastAPI Backend
@@ -76,3 +77,4 @@ psi-app/
 ├── exports/                          # Generated Excel/PDF exports
 │
 └── readme.md                         # This file
+```
