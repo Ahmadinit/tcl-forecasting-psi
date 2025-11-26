@@ -5,7 +5,9 @@ import sys
 from pathlib import Path
 
 # Get the backend directory
-backend_dir = Path(__file__).parent.parent
+backend_dir = Path(os.getcwd())
+sys.path.insert(0, str(backend_dir))
+
 sys.path.insert(0, str(backend_dir))
 
 a = Analysis(
