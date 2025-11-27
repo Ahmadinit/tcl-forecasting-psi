@@ -36,7 +36,6 @@
         "dmg": {
             "title": "${productName} ${version}",
             "icon": "icons.icns",
-            "background": "background.png",
             "contents": [
                 {
                     "x": 410,
@@ -62,22 +61,17 @@
             "package.json"
         ],
         "extraResources": [
-            {
-                "from": "../../dist",
-                "to": "app",
-                "filter": ["**/*"]
-            },
-            {
-                "from": "build",
-                "to": "build",
-                "filter": ["**/*"]
-            },
-            {
-                "from": "../../../backend/packaging/dist/psi-backend-macos",
-                "to": "backend/psi-backend",
-                "filter": ["**/*"]
-            }
-        ],
+    {
+        "from": "../../dist",
+        "to": "app",
+        "filter": ["**/*"]
+    },
+    {
+        "from": "../../../backend/packaging/dist/psi-backend-macos",
+        "to": "backend/psi-backend",
+        "filter": ["**/*"]
+    }
+],
         "directories": {
             "buildResources": "build",
             "output": "dist"
