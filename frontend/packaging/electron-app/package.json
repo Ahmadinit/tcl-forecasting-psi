@@ -36,7 +36,7 @@
         "dmg": {
             "title": "${productName} ${version}",
             "icon": "icons.icns",
-            "background": "build/background.png",
+            "background": "background.png",
             "contents": [
                 {
                     "x": 410,
